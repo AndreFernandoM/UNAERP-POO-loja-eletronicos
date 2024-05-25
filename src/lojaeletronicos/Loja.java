@@ -18,7 +18,7 @@ public class Loja {
 
     public void exibirMenu() {
         while (true) {
-            
+
             System.out.println("\t######################");
             System.out.println("Menu:\n");
             System.out.println("1 - Adicionar Itens");
@@ -60,13 +60,13 @@ public class Loja {
         Produto produto = null;
         switch (opcaoItem) {
             case 1:
-                produto = new Smartphone("\nApple", "iPhone 13", 7999.99, "iOS", 128);
+                produto = new Smartphone("\nApple", "iPhone 15", 4800.99, "iOS", 128);
                 break;
             case 2:
-                produto = new Laptop("\nDell", "Inspiron 15", 3599.99, "Intel i7", 16);
+                produto = new Laptop("\nDell", "Inspiron 15", 4299.99, "Intel i7", 16);
                 break;
             case 3:
-                produto = new TV("\nSamsung", "QLED 4K", 4299.99, 55, "4K");
+                produto = new TV("\nSamsung", "QLED 4K", 2999.99, 55, "4K");
                 break;
             default:
                 System.out.println("\n\tOpcao invalida. Retornando ao menu principal.\n");
@@ -77,7 +77,6 @@ public class Loja {
         int quantidade = scanner.nextInt();
         cliente.getCarrinhoDeCompras().adicionarProduto(produto, quantidade);
         System.out.println("> Produto adicionado ao carrinho.\n");
-        
 
     }
 
@@ -94,7 +93,7 @@ public class Loja {
             } else {
                 System.out.println("\n\tOpcao invalida. Retornando ao menu principal.\n");
             }
-            
+
         }
         return;
 
