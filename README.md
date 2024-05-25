@@ -11,7 +11,7 @@
 
 ### Requisitos
 
-Cada produto tem características comuns como marca, modelo, preço, mas também tem características específicas.
-Os clientes podem adicionar produtos ao carrinho de compras.
-Os produtos podem ser adicionados ao carrinho de compras em quantidades variadas.
-Os clientes podem visualizar o total a ser pago pelo carrinho de compras.
+- Cada produto tem características comuns como marca, modelo, preço, mas também tem características específicas.
+- Os clientes podem adicionar produtos ao carrinho de compras.
+- Os produtos podem ser adicionados ao carrinho de compras em quantidades variadas.
+- Os clientes podem visualizar o total a ser pago pelo carrinho de compras.
